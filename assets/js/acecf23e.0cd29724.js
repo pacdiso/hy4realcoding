@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhy_4_realcoding=self.webpackChunkhy_4_realcoding||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/hy4realcoding/blog","blogTitle":"Blog","authorsListPath":"/hy4realcoding/blog/authors"}')}}]);
