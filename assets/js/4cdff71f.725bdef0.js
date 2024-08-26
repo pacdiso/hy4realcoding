@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhy_4_realcoding=self.webpackChunkhy_4_realcoding||[]).push([[3026],{5970:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/hy4realcoding/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
