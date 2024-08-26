@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: ' HY Coding Blog',
+  tagline: '本站是一個紀錄自己的學習筆記',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -32,8 +32,18 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-TW',     // 預設語系
+    locales: ['en', 'zh-TW'],   // 語系配置
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',       // 閱讀方向為左到右
+      },
+      'zh-TW': {
+        label: '繁體中文（台灣）',
+        direction: 'ltr',
+      },
+    },
   },
 
   presets: [
@@ -76,7 +86,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'HY4ORReal',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -86,14 +96,14 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Articles',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          { to: '/blog', label: 'Blog', position: 'left' },
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -103,7 +113,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Articles',
                 to: '/docs/intro',
               },
             ],
@@ -112,16 +122,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/pacdiso',
               },
             ],
           },
@@ -132,14 +134,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} HY4ORReal, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

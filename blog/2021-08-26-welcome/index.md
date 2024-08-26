@@ -1,24 +1,37 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
+authors: HY
 tags: [facebook, hello, docusaurus]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+網站教學內籤(ignore)
+Here are a few tips you might find useful.  
 
-Here are a few tips you might find useful.
 
 <!-- truncate -->
+:::tip
 
 Simply add Markdown files (or folders) to the `blog` directory.
 
+:::
+
+:::tip
+
 Regular blog authors can be added to `authors.yml`.
+
+:::
+
+:::tip
 
 The blog post date can be extracted from filenames, such as:
 
 - `2019-05-30-welcome.md`
 - `2019-05-30-welcome/index.md`
+
+:::
+
+
 
 A blog post folder can be convenient to co-locate blog post images:
 
