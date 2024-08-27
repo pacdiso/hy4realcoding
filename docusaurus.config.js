@@ -97,6 +97,11 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Articles',
+          },{
+            type: 'docSidebar',
+            sidebarId: 'noteSidebar',
+            position: 'left',
+            label: 'Drop note',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           // {
